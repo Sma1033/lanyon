@@ -16,7 +16,7 @@ description:         'A reserved <a href="http://jekyllrb.com" target="_blank">J
 #url:                 http://lanyon.getpoole.com
 url:                 'https://github.com/Sma1033/site/'
 baseurl:             '/site'
-paginate:            5
+paginate:            4
 
 # About/contact
 author:
@@ -25,4 +25,4 @@ author:
   email:             markdotto@gmail.com
 
 # Custom vars
-version:             1.0.0
+version:             2.0.0
