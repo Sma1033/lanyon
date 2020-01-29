@@ -1,0 +1,70 @@
+# reference material
+How to Install Jekyll Themes? - Tutorial 12
+https://www.youtube.com/watch?v=bty7LHm14CA
+
+在 GitHub 上使用 Jekyll 建立自己的部落格
+https://frank198978104.github.io/2017/07/28/welcome-to-jekyll/
+
+如何在 Github Pages 建立靜態網站
+https://www.youtube.com/watch?v=bU0f1IvUcZA
+
+使用 Jekyll 建立自己的 Github Page Blog
+https://nk910216.github.io/2017/02/05/HowToSetupBlog/
+
+Win10 安裝 Jekyll 部落格網站產生器教學
+https://blog.jaycetyle.com/2018/01/jekyll-on-win10/
+
+[教學] 用Github Pages和Jekyll快速建立免費部落格
+https://shubo.io/jekyll-github-page-blog/
+
+
+-----------------------------------------------------------------------
+_config.yml
+
+#url:                 http://lanyon.getpoole.com
+url:                 'https://github.com/Sma1033/site/'
+baseurl:             '/site'
+paginate:            5
+
+
+-----------------------------------------------------------------------
+# index.html: remove slash
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ site.baseurl }}/{{ post.url }}">   =>   <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+    
+    
+    
+-----------------------------------------------------------------------
+# _includs/sidebar.html: fix side bar link, add {{ site.baseurl }}
+
+    {% assign pages_list = site.pages | sort:"url" %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "page" %}
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    <!--<a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>-->
+    <!--<a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>-->
+    <!--<span class="sidebar-nav-item">Currently v{{ site.version }}</span>-->
+
+
+
+-----------------------------------------------------------------------
+# add posts in _posts/
+
+file format: 2013-12-31-whats-jekyll.md
+
+
+
+
+
