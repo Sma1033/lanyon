@@ -19,7 +19,7 @@ I am currently working as a full-time research assistant in [MCTLab](https://sit
 
 I earned my master's degree in Electrical Engineering major at National Taiwan University. My research interests include machine learning, Music Information Retrieval (MIR), signal processing and music generation.
 
-You can find more information about my works [here](https://sma1033.github.io/site//01_projects/).
+You can find more information about my works [here](https://sma1033.github.io/site/01_projects/).
 
 <br>
 <br>
