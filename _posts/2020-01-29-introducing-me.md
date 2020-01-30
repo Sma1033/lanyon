@@ -15,7 +15,7 @@ title: About Me
 
 ## About Me
 
-I am currently working as a full-time research assistant in [MCTLab](https://sites.google.com/view/mctl) which is directed by [Dr. Li Su](https://www.iis.sinica.edu.tw/pages/lisu/contact_en.html) at Academia Sinica in Taiwan. 
+I am currently working as a full-time research assistant in [MCTLab](https://sites.google.com/view/mctl){:target="_blank"} which is directed by [Dr. Li Su](https://www.iis.sinica.edu.tw/pages/lisu/contact_en.html){:target="_blank"} at Academia Sinica in Taiwan. 
 
 I earned my master's degree in Electrical Engineering major at National Taiwan University. My research interests include machine learning, Music Information Retrieval (MIR), signal processing and music generation.
 
