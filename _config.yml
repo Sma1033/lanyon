@@ -19,7 +19,7 @@ tagline:             'Research at the intersection of music and AI technology'
 description:         'I-Chieh Wei (Sam Wei) <br> <br> Research assistant <br> MCTLab, Academia Sinica, Taiwan'
 
 #url:                 http://lanyon.getpoole.com
-url:                 'https://github.com/Sma1033/site/'
+url:                 'https://sma1033.github.io/site/'
 baseurl:             '/site'
 paginate:            4
 
