@@ -8,7 +8,7 @@ title: Projects
 ## Drum pattern generation using Self-Similarity Matrix   
 
 #### The flow of generation
-![Generation Flow](../../pics/drum_system_diagram.jpg "Generation Flow")
+![Generation Flow](../pics/drum_system_diagram.jpg "Generation Flow")
 
 In this project, a Variational Autoencoders (VAEs) based drum pattern generation model is built to generate symbolic drum patterns
 given an accompaniment that consists of melodic sequences. A self-similarity matrix (SSM) is incorporated in the process for encapsulating structural information. The subjective listening test highlight the model’s capability of creating musically meaningful transitions on structural boundaries.
@@ -64,12 +64,12 @@ Chroma-based Dynamic Time Warping (DTW) is an extremely reliable method to calcu
 
 --- 
 
-## Create instruments with VOCAL MIXER
+## Create instruments with VOICE MIXER
 
-#### The system diagram of "VOCAL MIXER"
-![Generation Flow](../../pics/voice_mixer_diagram.jpg "VOICE MIXER")
+#### The system diagram of "VOICE MIXER"
+![Generation Flow](../pics/voice_mixer_diagram.jpg "VOICE MIXER")
 
-VOCAL MIXER is an automated audio processing system to create personalized musical instruments using the user’s speech voice. The processing flow is presented in the above figure. First, the user is asked to read and record a short English passage (roughly 100 words) randomly extracted from Wikipedia. Then, the recorded speech voice is processed and segmented into thirty-nine phonemes using a neural network model trained on the TIMIT speech dataset. After that, the extracted phonemes are mixed with pre-processed audio materials to create three different humanized musical instruments (lead vocal, bass and drum kit). Finally, the instruments are applied to database MIDI files for music playback. Since those extracted phonemes vary largely between users, everyone can create their own unique musical instruments with their voice.
+VOICE MIXER is an automated audio processing system to create personalized musical instruments using the user’s speech voice. The processing flow is presented in the above figure. First, the user is asked to read and record a short English passage (roughly 100 words) randomly extracted from Wikipedia. Then, the recorded speech voice is processed and segmented into thirty-nine phonemes using a neural network model trained on the TIMIT speech dataset. After that, the extracted phonemes are mixed with pre-processed audio materials to create three different humanized musical instruments (lead vocal, bass and drum kit). Finally, the instruments are applied to database MIDI files for music playback. Since those extracted phonemes vary largely between users, everyone can create their own unique musical instruments with their voice.
 
 Please check the Colab demo file [here](https://colab.research.google.com/drive/1tar4HcBUSKkBZFwSNTDONyAW0X_IVxIE).
 
