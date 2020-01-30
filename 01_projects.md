@@ -13,7 +13,7 @@ title: Projects
 In this project, a Variational Autoencoders (VAEs) based drum pattern generation model is built to generate symbolic drum patterns
 given an accompaniment that consists of melodic sequences. A self-similarity matrix (SSM) is incorporated in the process for encapsulating structural information. The subjective listening test highlight the model’s capability of creating musically meaningful transitions on structural boundaries.
 
-For more details, please check our ISMIR 2019 conference [paper](./paper/drum_generation_paper.pdf), [poster](./paper/drum_generation_poster.pdf), [slide](./paper/drum_generation_slide.pdf) and [GitHub](https://github.com/Sma1033/drum_generation_with_ssm/). Listening example is also available [here](https://sma1033.github.io/drum_generation_with_ssm/). (may take a while to open.)
+For more details, please check our ISMIR 2019 conference [paper](./paper/drum_generation_paper.pdf), [poster](./paper/drum_generation_poster.pdf), [slide](./paper/drum_generation_slide.pdf) and [GitHub](https://github.com/Sma1033/drum_generation_with_ssm/){:target="_blank"}. Listening example is also available [here](https://sma1033.github.io/drum_generation_with_ssm/){:target="_blank"}. (may take a while to open.)
 
 <br>
 
@@ -22,7 +22,7 @@ For more details, please check our ISMIR 2019 conference [paper](./paper/drum_ge
 
 ## Real-time score following for enriched musical concert
 
-This is a project collaborated with [Pacing Art Culture Education Foundation](http://www.pacing.com.tw/pacing/). In this work, a low-latency, efficient real-time score following system is proposed to predict the score position of a given song in a live classical concert. The system is implemented with Parallel Dynamic Time Warping (PDTW) algorithm on a multi-core system. Its output (predicted current score position) is used to drive a visualization system to project pre-programmed animation effects on screen. For more details, please check our MMSP 2018 conference [paper](./paper/mmsp_pdtw_paper.pdf) and [poster](./paper/mmsp_pdtw_poster.pdf).
+This is a project collaborated with [Pacing Art Culture Education Foundation](http://www.pacing.com.tw/pacing/){:target="_blank"}. In this work, a low-latency, efficient real-time score following system is proposed to predict the score position of a given song in a live classical concert. The system is implemented with Parallel Dynamic Time Warping (PDTW) algorithm on a multi-core system. Its output (predicted current score position) is used to drive a visualization system to project pre-programmed animation effects on screen. For more details, please check our MMSP 2018 conference [paper](./paper/mmsp_pdtw_paper.pdf) and [poster](./paper/mmsp_pdtw_poster.pdf).
 
 ### YouTube demo video
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=2SRBgtO7_Ck" target="_blank"><img src="http://img.youtube.com/vi/2SRBgtO7_Ck/0.jpg" alt="IMAGE ALT TEXT HERE" width="424" height="270" border="1.5" /></a>
@@ -34,7 +34,7 @@ This is a project collaborated with [Pacing Art Culture Education Foundation](ht
 
 ## Real-time beat tracking in audio signals
     
-This is a project that utilizes off-line beat tracking package ([Madmom](https://github.com/CPJKU/madmom)) to perform the real-time beat tracking task for an live audio signal.
+This is a project that utilizes off-line beat tracking package ([Madmom](https://github.com/CPJKU/madmom){:target="_blank"}) to perform the real-time beat tracking task for an live audio signal.
 
 Madmom is a well known Music Information Retrieval (MIR) oriented python package that performs off-line beat tracking on music with state-of-the-art performance. However, It's downbeat tracking result is not stable in particular scenarios. For example, It usually confuses with the location of the first beat and the third beat in a standard 4/4 time signature music clip.
 
@@ -71,7 +71,7 @@ Chroma-based Dynamic Time Warping (DTW) is an extremely reliable method to calcu
 
 VOICE MIXER is an automated audio processing system to create personalized musical instruments using the user’s speech voice. The processing flow is presented in the above figure. First, the user is asked to read and record a short English passage (roughly 100 words) randomly extracted from Wikipedia. Then, the recorded speech voice is processed and segmented into thirty-nine phonemes using a neural network model trained on the TIMIT speech dataset. After that, the extracted phonemes are mixed with pre-processed audio materials to create three different humanized musical instruments (lead vocal, bass and drum kit). Finally, the instruments are applied to database MIDI files for music playback. Since those extracted phonemes vary largely between users, everyone can create their own unique musical instruments with their voice.
 
-Please check the Colab demo file [here](https://colab.research.google.com/drive/1tar4HcBUSKkBZFwSNTDONyAW0X_IVxIE).
+Please check the Colab demo file [here](https://colab.research.google.com/drive/1tar4HcBUSKkBZFwSNTDONyAW0X_IVxIE){:target="_blank"}.
 
 
 <br>
