@@ -1,4 +1,4 @@
-Please go to [here](https://sma1033.github.io/site/) for website
+Please go to [here](https://sma1033.github.io/site/) for website.
 
 # About Me
 
