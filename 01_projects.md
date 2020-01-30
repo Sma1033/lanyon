@@ -13,7 +13,7 @@ title: Projects
 In this project, a Variational Autoencoders (VAEs) based drum pattern generation model is built to generate symbolic drum patterns
 given an accompaniment that consists of melodic sequences. A self-similarity matrix (SSM) is incorporated in the process for encapsulating structural information. The subjective listening test highlight the model’s capability of creating musically meaningful transitions on structural boundaries.
 
-For more details, please check our ISMIR 2019 conference [paper](./paper/drum_generation_paper.pdf), [poster](./paper/drum_generation_poster.pdf), [slide](./paper/drum_generation_slide.pdf) and [GitHub](https://github.com/Sma1033/drum_generation_with_ssm/){:target="_blank"}. Listening example is also available [here](https://sma1033.github.io/drum_generation_with_ssm/){:target="_blank"}. (may take a while to open.)
+For more details, please check our ISMIR 2019 conference [paper](./paper/drum_generation_paper.pdf){:target="_blank"}, [poster](./paper/drum_generation_poster.pdf){:target="_blank"}, [slide](./paper/drum_generation_slide.pdf){:target="_blank"} and [GitHub](https://github.com/Sma1033/drum_generation_with_ssm/){:target="_blank"}. Listening example is also available [here](https://sma1033.github.io/drum_generation_with_ssm/){:target="_blank"}. (may take a while to open.)
 
 <br>
 
@@ -22,7 +22,7 @@ For more details, please check our ISMIR 2019 conference [paper](./paper/drum_ge
 
 ## Real-time score following for enriched musical concert
 
-This is a project collaborated with [Pacing Art Culture Education Foundation](http://www.pacing.com.tw/pacing/){:target="_blank"}. In this work, a low-latency, efficient real-time score following system is proposed to predict the score position of a given song in a live classical concert. The system is implemented with Parallel Dynamic Time Warping (PDTW) algorithm on a multi-core system. Its output (predicted current score position) is used to drive a visualization system to project pre-programmed animation effects on screen. For more details, please check our MMSP 2018 conference [paper](./paper/mmsp_pdtw_paper.pdf) and [poster](./paper/mmsp_pdtw_poster.pdf).
+This is a project collaborated with [Pacing Art Culture Education Foundation](http://www.pacing.com.tw/pacing/){:target="_blank"}. In this work, a low-latency, efficient real-time score following system is proposed to predict the score position of a given song in a live classical concert. The system is implemented with Parallel Dynamic Time Warping (PDTW) algorithm on a multi-core system. Its output (predicted current score position) is used to drive a visualization system to project pre-programmed animation effects on screen. For more details, please check our MMSP 2018 conference [paper](./paper/mmsp_pdtw_paper.pdf){:target="_blank"} and [poster](./paper/mmsp_pdtw_poster.pdf){:target="_blank"}.
 
 ### YouTube demo video
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=2SRBgtO7_Ck" target="_blank"><img src="http://img.youtube.com/vi/2SRBgtO7_Ck/0.jpg" alt="IMAGE ALT TEXT HERE" width="424" height="270" border="1.5" /></a>
