@@ -13,7 +13,7 @@ title: Projects
 In this project, a Variational Autoencoders (VAEs) based drum pattern generation model is built to generate symbolic drum patterns
 given an accompaniment that consists of melodic sequences. A self-similarity matrix (SSM) is incorporated in the process for encapsulating structural information. The subjective listening test highlight the model’s capability of creating musically meaningful transitions on structural boundaries.
 
-For more details, please check our ISMIR 2019 conference [paper](./paper/drum_generation_paper.pdf){:target="_blank"}, [poster](./paper/drum_generation_poster.pdf){:target="_blank"}, [slide](./paper/drum_generation_slide.pdf){:target="_blank"} and [GitHub](https://github.com/Sma1033/drum_generation_with_ssm/){:target="_blank"}. Listening example is also available [here](https://sma1033.github.io/drum_generation_with_ssm/){:target="_blank"}. (may take a while to open.)
+For more details, please check our ISMIR 2019 conference [paper](./paper/drum_generation_paper.pdf){:target="_blank"}, [poster](./paper/drum_generation_poster.pdf){:target="_blank"}, [slide](./paper/drum_generation_slide.pdf){:target="_blank"} and [GitHub](https://github.com/Sma1033/drum_generation_with_ssm/){:target="_blank"}. Audio samples are also available [here](https://sma1033.github.io/drum_generation_with_ssm/){:target="_blank"} (may take a while to open).
 
 <br>
 
