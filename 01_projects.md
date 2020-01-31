@@ -44,7 +44,7 @@ Madmom is a well known Music Information Retrieval (MIR) oriented python package
 
 To tackle this issue, a voting mechanism is employed to improve the downbeat tracking result. First, the live music input is segmented into multiple overlapped clips. Then, the downbeat tracking result of clips are merged by a simple majority vote mechanism. The program utilizes multi-core computation power to retrieve the beat location of multiple music segments simultaneously. Although the idea sounds simple and brutal, surprisingly, It works nicely and reliably with live music input.
 
-### YouTube demo video
+### Real-time Beat tracking demo
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=hW_QP6qfwHQ" target="_blank"><img src="http://img.youtube.com/vi/hW_QP6qfwHQ/0.jpg" alt="IMAGE ALT TEXT HERE" width="424" height="270" border="1.5" /></a>
 
 <!--[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/hW_QP6qfwHQ/0.jpg)](http://www.youtube.com/watch?v=hW_QP6qfwHQ)-->
@@ -60,7 +60,7 @@ This is a project using microphone as input source to query the music clip in an
 
 Chroma-based Dynamic Time Warping (DTW) is an extremely reliable method to calculate the similarity between audio clips. However, It employs heavy computation for chroma feature conversion and alignment path calculation. In this project, a two-stage audio filtering system is proposed to speed up the process for real-world applications. In the first stage, roughly 90% of audio files in the database can be filtered out using the twelve-bin chroma vector hash value comparison. Then, an optimized DTW algorithm is applied to rank the remaining clips based on their similarity to the input source. The most similar clip in the database will be regarded as the retrieved result, and, the system will act accordingly by its similarity value. With such a two-stage filtering mechanism, the designed system is very responsive and can be adapted and applied to any live interactive performance.
 
-### YouTube demo video
+### Interactive music interface video
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=QbUSsDGDi_k" target="_blank"><img src="http://img.youtube.com/vi/QbUSsDGDi_k/0.jpg" alt="IMAGE ALT TEXT HERE" width="424" height="290" border="1.5" /></a>
 
 <br>
