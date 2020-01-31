@@ -24,6 +24,9 @@ For more details, please check our ISMIR 2019 conference [paper](./paper/drum_ge
 
 This is a project collaborated with [Pacing Art Culture Education Foundation](http://www.pacing.com.tw/pacing/){:target="_blank"}. In this work, a low-latency, efficient real-time score following system is proposed to predict the score position of a given song in a live classical concert. The system is implemented with Parallel Dynamic Time Warping (PDTW) algorithm on a multi-core system. Its output (predicted current score position) is used to drive a visualization system to project pre-programmed animation effects on screen. For more details, please check our MMSP 2018 conference [paper](./paper/mmsp_pdtw_paper.pdf){:target="_blank"} and [poster](./paper/mmsp_pdtw_poster.pdf){:target="_blank"}.
 
+### Concert flyer
+![Concert flyer](../pics/concert_flyer.jpg "This is the concert flyer")
+
 ### YouTube demo video
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=2SRBgtO7_Ck" target="_blank"><img src="http://img.youtube.com/vi/2SRBgtO7_Ck/0.jpg" alt="IMAGE ALT TEXT HERE" width="424" height="270" border="1.5" /></a>
 
