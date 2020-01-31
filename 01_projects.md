@@ -68,7 +68,7 @@ Chroma-based Dynamic Time Warping (DTW) is an extremely reliable method to calcu
 
 --- 
 
-## Create instruments with VOICE MIXER
+## Create personalized instruments with your speech voice
 
 #### The system diagram of "VOICE MIXER"
 ![Generation Flow](../pics/voice_mixer_diagram.jpg "VOICE MIXER")
