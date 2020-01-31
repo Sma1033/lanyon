@@ -26,9 +26,9 @@ This is a project collaborated with [Pacing Art Culture Education Foundation](ht
 
 ### Concert flyer
 <!--![Concert flyer](../pics/concert_flyer.jpg =536x381)-->
-<img src="../pics/concert_flyer.jpg" alt="concert flyer" width="536" height="381"/>
+<img src="../pics/concert_flyer.jpg" alt="concert flyer" width="590" height="420"/>
 
-### YouTube demo video
+### Concert video
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=2SRBgtO7_Ck" target="_blank"><img src="http://img.youtube.com/vi/2SRBgtO7_Ck/0.jpg" alt="IMAGE ALT TEXT HERE" width="424" height="270" border="1.5" /></a>
 
 <br>
