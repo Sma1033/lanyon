@@ -44,7 +44,7 @@ Madmom is a well known Music Information Retrieval (MIR) oriented python package
 
 To tackle this issue, a voting mechanism is employed to improve the downbeat tracking result. First, the live music input is segmented into multiple overlapped clips. Then, the downbeat tracking result of clips are merged by a simple majority vote mechanism. The program utilizes multi-core computation power to retrieve the beat location of multiple music segments simultaneously. Although the idea sounds simple and brutal, surprisingly, It works nicely and reliably with live music input.
 
-### Real-time Beat tracking demo
+### Real-time beat tracking demo
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=hW_QP6qfwHQ" target="_blank"><img src="http://img.youtube.com/vi/hW_QP6qfwHQ/0.jpg" alt="IMAGE ALT TEXT HERE" width="424" height="270" border="1.5" /></a>
 
 <!--[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/hW_QP6qfwHQ/0.jpg)](http://www.youtube.com/watch?v=hW_QP6qfwHQ)-->
