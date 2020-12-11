@@ -83,7 +83,7 @@ Please check the Colab demo file [here](https://colab.research.google.com/drive/
 --- 
 
 
-## Drum transcription with audio-2-MIDI dataset
+## Improve drum transcription with audio-2-MIDI dataset
 
 #### Illustration of the proposed drum transcription system
 ![Generation Flow](../pics/adt_sys.jpg "ADT SYSTEM")
