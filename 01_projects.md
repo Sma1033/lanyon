@@ -96,21 +96,6 @@ Please check the Colab demo file [here](https://colab.research.google.com/drive/
 
 <br>
 
-
---- 
-
-
-## Improve drum transcription with audio-2-MIDI dataset
-
-#### Illustration of the proposed drum transcription system
-![Generation Flow](../pics/adt_sys.jpg "ADT SYSTEM")
-
-<br>
-
-Automatic Drum Transcription (ADT) is a task that involves the isolation and identification of percussive events from audio signals. One of the major challenges in ADT research is the lack of large-scale labeled dataset featuring audio with polyphonic mixtures. To tackle this issue, we propose a semi-automatic way of compiling a labeled dataset using the audio-to-MIDI alignment technique. The resulting dataset consists of 1565 polyphonic mixtures of music with audio-aligned MIDI ground truth. To validate the quality and generality of this dataset, an ADT model based on Convolutional Neural Network (CNN) is trained and evaluated on several publicly available datasets. The evaluation results suggest that our proposed methodology compares favorably with state-of-the-art ADT systems. The result also implies the possibility of leveraging audio-to-MIDI alignment in creating datasets for a broader range of audio-related tasks. ([paper](./paper/drum_transcription_paper.pdf){:target="_blank"} submitted to ICASSP 2021)
-
-The implemented drum transcription system is integrated in [Omnizart](https://github.com/Music-and-Culture-Technology-Lab/omnizart){:target="_blank"}.
-
 <br>
 <br>
 <br>
